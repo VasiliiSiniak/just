@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630502409419' stop='1630502415180'>
+    <name>Логин</name>
+    <title>Логин</title>
+    <test-cases>
+        <test-case start='1630502409426' status='broken' stop='1630502415178'>
+            <name>Логин на онлайнер</name>
+            <title>Логин на онлайнер</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-11'/>
+            </parameters>
+            <steps>
+                <step start='1630502409429' status='passed' stop='1630502413370'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630502413370' status='passed' stop='1630502415103'>
+                    <name>Когда Я нажимаю "Боковое Меню" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Боковое Меню" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630502415103' status='broken' stop='1630502415177'>
+                    <name>Когда Я закрываю алерт</name>
+                    <title>Когда Я закрываю алерт</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630502415178' status='canceled' stop='1630502415178'>
+                    <name>Когда Я нажимаю "Войти" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Войти" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630502415178' status='canceled' stop='1630502415178'>
+                    <name>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630502415178' status='canceled' stop='1630502415178'>
+                    <name>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630502415178' status='canceled' stop='1630502415178'>
+                    <name>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</name>
+                    <title>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630502415178' status='canceled' stop='1630502415178'>
+                    <name>Тогда Я вижу "Имя Профиля" на "Главная Страница"</name>
+                    <title>Тогда Я вижу "Имя Профиля" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such alert</message>
+                <stack-trace>no such alert
+                  (Session info: chrome=92.0.4515.166)
+                0   chromedriver_mac64_v92.0.4515.107   0x000000010dbd7829 chromedriver_mac64_v92.0.4515.107 + 2730025
+                1   chromedriver_mac64_v92.0.4515.107   0x000000010e294f43 chromedriver_mac64_v92.0.4515.107 + 9797443
+                2   chromedriver_mac64_v92.0.4515.107   0x000000010d96980f chromedriver_mac64_v92.0.4515.107 + 182287
+                3   chromedriver_mac64_v92.0.4515.107   0x000000010d96034f chromedriver_mac64_v92.0.4515.107 + 144207
+                4   chromedriver_mac64_v92.0.4515.107   0x000000010d97c6d0 chromedriver_mac64_v92.0.4515.107 + 259792
+                5   chromedriver_mac64_v92.0.4515.107   0x000000010d9bafbb chromedriver_mac64_v92.0.4515.107 + 516027
+                6   chromedriver_mac64_v92.0.4515.107   0x000000010d97bf28 chromedriver_mac64_v92.0.4515.107 + 257832
+                7   chromedriver_mac64_v92.0.4515.107   0x000000010d9bb003 chromedriver_mac64_v92.0.4515.107 + 516099
+                8   chromedriver_mac64_v92.0.4515.107   0x000000010d9918be chromedriver_mac64_v92.0.4515.107 + 346302
+                9   chromedriver_mac64_v92.0.4515.107   0x000000010d992b25 chromedriver_mac64_v92.0.4515.107 + 351013
+                10  chromedriver_mac64_v92.0.4515.107   0x000000010db9ef8f chromedriver_mac64_v92.0.4515.107 + 2498447
+                11  chromedriver_mac64_v92.0.4515.107   0x000000010dbb1a61 chromedriver_mac64_v92.0.4515.107 + 2574945
+                12  chromedriver_mac64_v92.0.4515.107   0x000000010db8476b chromedriver_mac64_v92.0.4515.107 + 2389867
+                13  chromedriver_mac64_v92.0.4515.107   0x000000010dbb2eda chromedriver_mac64_v92.0.4515.107 + 2580186
+                14  chromedriver_mac64_v92.0.4515.107   0x000000010db94ffc chromedriver_mac64_v92.0.4515.107 + 2457596
+                15  chromedriver_mac64_v92.0.4515.107   0x000000010dbcc148 chromedriver_mac64_v92.0.4515.107 + 2683208
+                16  chromedriver_mac64_v92.0.4515.107   0x000000010dbcc2d1 chromedriver_mac64_v92.0.4515.107 + 2683601
+                17  chromedriver_mac64_v92.0.4515.107   0x000000010dbdc848 chromedriver_mac64_v92.0.4515.107 + 2750536
+                18  libsystem_pthread.dylib             0x00007fff204ba8fc _pthread_start + 224
+                19  libsystem_pthread.dylib             0x00007fff204b6443 thread_start + 15
+                    at Browser.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/node_modules/@wdio/utils/build/shim.js:239:24)
+                    at World.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/tests/features/step_definitions/when.js:14:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

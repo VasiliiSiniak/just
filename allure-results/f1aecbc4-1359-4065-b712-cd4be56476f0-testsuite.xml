@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630481272519' stop='1630481284482'>
+    <name>Поиск</name>
+    <title>Поиск</title>
+    <test-cases>
+        <test-case start='1630481272526' status='passed' stop='1630481284480'>
+            <name>Поиск авто по марке</name>
+            <title>Поиск авто по марке</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630481272529' status='passed' stop='1630481273717'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481273717' status='passed' stop='1630481279148'>
+                    <name>Когда Я нажимаю "Автобарахолка" на "Главная Страница"</name>
+                    <title>Когда Я нажимаю "Автобарахолка" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481279148' status='passed' stop='1630481280571'>
+                    <name>Когда Я нажимаю "Выбор Марок" на "Автобарахолка"</name>
+                    <title>Когда Я нажимаю "Выбор Марок" на "Автобарахолка"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481280571' status='passed' stop='1630481281168'>
+                    <name>Когда Я ввожу "Марка Автомобиля" в "Поиск Авто" на "Автобарахолка"</name>
+                    <title>Когда Я ввожу "Марка Автомобиля" в "Поиск Авто" на "Автобарахолка"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481281168' status='passed' stop='1630481282427'>
+                    <name>Когда Я нажимаю "Марка" на "Автобарахолка"</name>
+                    <title>Когда Я нажимаю "Марка" на "Автобарахолка"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481282427' status='passed' stop='1630481284479'>
+                    <name>Тогда Я вижу "Автомобиль" с текстом "Марка Автомобиля" на "Автобарахолка"</name>
+                    <title>Тогда Я вижу "Автомобиль" с текстом "Марка Автомобиля" на "Автобарахолка"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630481183283' stop='1630481207083'>
+    <name>Корзина</name>
+    <title>Корзина</title>
+    <test-cases>
+        <test-case start='1630481183290' status='passed' stop='1630481207082'>
+            <name>Добавление товара в корзину</name>
+            <title>Добавление товара в корзину</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630481183293' status='passed' stop='1630481184745'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481184745' status='passed' stop='1630481185932'>
+                    <name>Когда Я нажимаю "Войти" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Войти" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481185932' status='passed' stop='1630481186344'>
+                    <name>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481186344' status='passed' stop='1630481186541'>
+                    <name>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481186541' status='passed' stop='1630481187683'>
+                    <name>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</name>
+                    <title>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481187684' status='passed' stop='1630481189835'>
+                    <name>Тогда Я вижу "Имя Профиля" на "Главная Страница"</name>
+                    <title>Тогда Я вижу "Имя Профиля" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481189835' status='passed' stop='1630481196594'>
+                    <name>Когда Я нажимаю "Категория Телевизоры" на "Главная Страница"</name>
+                    <title>Когда Я нажимаю "Категория Телевизоры" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481196594' status='passed' stop='1630481200927'>
+                    <name>Когда Я нажимаю "Первый Телевизор" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Первый Телевизор" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481200927' status='passed' stop='1630481202206'>
+                    <name>Когда Я нажимаю "Добавить В Корзину" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Добавить В Корзину" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481202206' status='passed' stop='1630481204167'>
+                    <name>Когда Я нажимаю "Перейти В Корзину" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Перейти В Корзину" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481204167' status='passed' stop='1630481205291'>
+                    <name>Тогда Я вижу "Товар В Корзине" на "Корзина"</name>
+                    <title>Тогда Я вижу "Товар В Корзине" на "Корзина"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481205291' status='passed' stop='1630481205329'>
+                    <name>Когда Я навожу курсор на "Количество Товаров" на "Корзина"</name>
+                    <title>Когда Я навожу курсор на "Количество Товаров" на "Корзина"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481205329' status='passed' stop='1630481206440'>
+                    <name>Когда Я нажимаю "Удалить Товар" на "Корзина"</name>
+                    <title>Когда Я нажимаю "Удалить Товар" на "Корзина"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481206441' status='passed' stop='1630481207081'>
+                    <name>Тогда Я вижу "Товар Удален" на "Корзина"</name>
+                    <title>Тогда Я вижу "Товар Удален" на "Корзина"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630493317512' stop='1630493322276'>
+    <name>Поиск</name>
+    <title>Поиск</title>
+    <test-cases>
+        <test-case start='1630493317519' status='broken' stop='1630493322272'>
+            <name>Поиск телефона сяоми</name>
+            <title>Поиск телефона сяоми</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-11'/>
+            </parameters>
+            <steps>
+                <step start='1630493317522' status='passed' stop='1630493321249'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493321249' status='broken' stop='1630493322272'>
+                    <name>Когда Я нажимаю "Каталог" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Каталог" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493322272' status='canceled' stop='1630493322273'>
+                    <name>Когда Я нажимаю "Электроника" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Электроника" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493322273' status='canceled' stop='1630493322273'>
+                    <name>Когда Я нажимаю "Категория Мобильные Телефоны" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Категория Мобильные Телефоны" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493322273' status='canceled' stop='1630493322273'>
+                    <name>Когда Я нажимаю "Мобильные Телефоны" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Мобильные Телефоны" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493322273' status='canceled' stop='1630493322273'>
+                    <name>Когда Я нажимаю "Фильтр Сяоми" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Фильтр Сяоми" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493322273' status='canceled' stop='1630493322273'>
+                    <name>Тогда Я вижу "Телефон Xiaomi" с текстом "Телефон Xiaomi" на "Каталог"</name>
+                    <title>Тогда Я вижу "Телефон Xiaomi" с текстом "Телефон Xiaomi" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command
+                    at Browser.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/node_modules/@wdio/utils/build/shim.js:239:24)
+                    at global.$ (/Users/v.siniak/WebstormProjects/just/node_modules/@wdio/runner/build/index.js:190:42)
+                    at ElementManager.getElement (/Users/v.siniak/WebstormProjects/just/tests/services/elementManager.js:18:16)
+                    at ElementManager.waitForClickable (/Users/v.siniak/WebstormProjects/just/tests/services/elementManager.js:90:30)
+                    at ElementManager.click (/Users/v.siniak/WebstormProjects/just/tests/services/elementManager.js:5:14)
+                    at World.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/tests/features/step_definitions/when.js:9:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

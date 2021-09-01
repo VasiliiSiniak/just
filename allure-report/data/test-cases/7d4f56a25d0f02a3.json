@@ -1,0 +1,186 @@
+{
+  "uid" : "7d4f56a25d0f02a3",
+  "name" : "Поиск комнаты по стоимости",
+  "fullName" : "Поиск.Поиск комнаты по стоимости",
+  "historyId" : "aef2d0af7eeef5626bc9380569805ff8",
+  "time" : {
+    "start" : 1630480394637,
+    "stop" : 1630480407226,
+    "duration" : 12589
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Пусть Я нахожусь на главной странице",
+      "time" : {
+        "start" : 1630480394641,
+        "stop" : 1630480395880,
+        "duration" : 1239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Когда Я нажимаю \"Квартиры\" на \"Хедер\"",
+      "time" : {
+        "start" : 1630480395880,
+        "stop" : 1630480400225,
+        "duration" : 4345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Когда Я нажимаю \"Аренда\" на \"Недвижимость\"",
+      "time" : {
+        "start" : 1630480400225,
+        "stop" : 1630480402602,
+        "duration" : 2377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Когда Я нажимаю \"Комната\" на \"Недвижимость\"",
+      "time" : {
+        "start" : 1630480402602,
+        "stop" : 1630480403778,
+        "duration" : 1176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Когда Я ввожу \"Минимальная Цена\" в \"Цена От\" на \"Недвижимость\"",
+      "time" : {
+        "start" : 1630480403778,
+        "stop" : 1630480404712,
+        "duration" : 934
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Когда Я ввожу \"Максимальная Цена\" в \"Цена До\" на \"Недвижимость\"",
+      "time" : {
+        "start" : 1630480404712,
+        "stop" : 1630480405010,
+        "duration" : 298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Когда Я нажимаю \"Первая Комната\" на \"Недвижимость\"",
+      "time" : {
+        "start" : 1630480405010,
+        "stop" : 1630480407147,
+        "duration" : 2137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Тогда Я вижу, что \"Цена Комнаты\" корректна на \"Недвижимость\"",
+      "time" : {
+        "start" : 1630480407147,
+        "stop" : 1630480407225,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Поиск"
+  }, {
+    "name" : "testClass",
+    "value" : "Поиск"
+  }, {
+    "name" : "testMethod",
+    "value" : "Поиск комнаты по стоимости"
+  }, {
+    "name" : "package",
+    "value" : "Поиск"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d4f56a25d0f02a3.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

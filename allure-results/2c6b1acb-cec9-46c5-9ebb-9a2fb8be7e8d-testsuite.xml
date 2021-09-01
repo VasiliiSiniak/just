@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630481229201' stop='1630481255442'>
+    <name>Избранное</name>
+    <title>Избранное</title>
+    <test-cases>
+        <test-case start='1630481229210' status='passed' stop='1630481255440'>
+            <name>Добавление товара в избранное</name>
+            <title>Добавление товара в избранное</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630481229214' status='passed' stop='1630481231161'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481231161' status='passed' stop='1630481232316'>
+                    <name>Когда Я нажимаю "Войти" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Войти" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481232316' status='passed' stop='1630481232701'>
+                    <name>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481232701' status='passed' stop='1630481232889'>
+                    <name>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481232889' status='passed' stop='1630481234031'>
+                    <name>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</name>
+                    <title>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481234031' status='passed' stop='1630481235830'>
+                    <name>Тогда Я вижу "Имя Профиля" на "Главная Страница"</name>
+                    <title>Тогда Я вижу "Имя Профиля" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481235830' status='passed' stop='1630481242414'>
+                    <name>Когда Я нажимаю "Категория Телевизоры" на "Главная Страница"</name>
+                    <title>Когда Я нажимаю "Категория Телевизоры" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481242414' status='passed' stop='1630481246839'>
+                    <name>Когда Я нажимаю "Первый Телевизор" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Первый Телевизор" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481246839' status='passed' stop='1630481248077'>
+                    <name>Когда Я нажимаю "Добавить В Избранное" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Добавить В Избранное" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481248077' status='passed' stop='1630481250467'>
+                    <name>Когда Я нажимаю "Избранное" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Избранное" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481250467' status='passed' stop='1630481252293'>
+                    <name>Когда Я нажимаю "Вкладка Каталог" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Вкладка Каталог" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481252293' status='passed' stop='1630481252346'>
+                    <name>Тогда Я вижу "Товар В Избранном" на "Каталог"</name>
+                    <title>Тогда Я вижу "Товар В Избранном" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481252346' status='passed' stop='1630481253449'>
+                    <name>Когда Я нажимаю "Выделить Все" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Выделить Все" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481253449' status='passed' stop='1630481255396'>
+                    <name>Когда Я нажимаю "Удалить Товары" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Удалить Товары" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481255396' status='passed' stop='1630481255439'>
+                    <name>Тогда Я вижу "Нет Закладок" с текстом "Нет Закладок" на "Каталог"</name>
+                    <title>Тогда Я вижу "Нет Закладок" с текстом "Нет Закладок" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

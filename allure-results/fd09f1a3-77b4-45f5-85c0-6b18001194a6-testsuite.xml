@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630481386694' stop='1630481412435'>
+    <name>Футер</name>
+    <title>Футер</title>
+    <test-cases>
+        <test-case start='1630481386702' status='passed' stop='1630481412435'>
+            <name>Проверка переходов в футере</name>
+            <title>Проверка переходов в футере</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630481386705' status='passed' stop='1630481387982'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481387982' status='passed' stop='1630481388037'>
+                    <name>Когда Я скролю до "О Компании" на "Футер"</name>
+                    <title>Когда Я скролю до "О Компании" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481388037' status='passed' stop='1630481390285'>
+                    <name>Когда Я нажимаю "О Компании" на "Футер"</name>
+                    <title>Когда Я нажимаю "О Компании" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481390285' status='passed' stop='1630481390362'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481390362' status='passed' stop='1630481391459'>
+                    <name>Когда Я нажимаю назад</name>
+                    <title>Когда Я нажимаю назад</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481391459' status='passed' stop='1630481394236'>
+                    <name>Когда Я нажимаю "Контакты" на "Футер"</name>
+                    <title>Когда Я нажимаю "Контакты" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481394236' status='passed' stop='1630481394372'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481394372' status='passed' stop='1630481395547'>
+                    <name>Когда Я нажимаю назад</name>
+                    <title>Когда Я нажимаю назад</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481395547' status='passed' stop='1630481397766'>
+                    <name>Когда Я нажимаю "Вакансии" на "Футер"</name>
+                    <title>Когда Я нажимаю "Вакансии" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481397766' status='passed' stop='1630481397921'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481397921' status='passed' stop='1630481399012'>
+                    <name>Когда Я нажимаю назад</name>
+                    <title>Когда Я нажимаю назад</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481399012' status='passed' stop='1630481400724'>
+                    <name>Когда Я нажимаю "Манифест" на "Футер"</name>
+                    <title>Когда Я нажимаю "Манифест" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481400724' status='passed' stop='1630481400817'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481400817' status='passed' stop='1630481401844'>
+                    <name>Когда Я нажимаю назад</name>
+                    <title>Когда Я нажимаю назад</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481401844' status='passed' stop='1630481403558'>
+                    <name>Когда Я нажимаю "Пользовательское Соглашение" на "Футер"</name>
+                    <title>Когда Я нажимаю "Пользовательское Соглашение" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481403558' status='passed' stop='1630481403651'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481403651' status='passed' stop='1630481404587'>
+                    <name>Когда Я нажимаю назад</name>
+                    <title>Когда Я нажимаю назад</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481404587' status='passed' stop='1630481406650'>
+                    <name>Когда Я нажимаю "Публичные договоры" на "Футер"</name>
+                    <title>Когда Я нажимаю "Публичные договоры" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481406650' status='passed' stop='1630481406735'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481406735' status='passed' stop='1630481407632'>
+                    <name>Когда Я нажимаю назад</name>
+                    <title>Когда Я нажимаю назад</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481407632' status='passed' stop='1630481409357'>
+                    <name>Когда Я нажимаю "Политика Конфиденциальности" на "Футер"</name>
+                    <title>Когда Я нажимаю "Политика Конфиденциальности" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481409357' status='passed' stop='1630481409504'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481409504' status='passed' stop='1630481410483'>
+                    <name>Когда Я нажимаю назад</name>
+                    <title>Когда Я нажимаю назад</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481410483' status='passed' stop='1630481412352'>
+                    <name>Когда Я нажимаю "Правила Возврата" на "Футер"</name>
+                    <title>Когда Я нажимаю "Правила Возврата" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481412352' status='passed' stop='1630481412434'>
+                    <name>Тогда Я вижу "Тайтл" на "Футер"</name>
+                    <title>Тогда Я вижу "Тайтл" на "Футер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

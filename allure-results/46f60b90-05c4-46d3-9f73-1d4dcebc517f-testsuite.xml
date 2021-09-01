@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630481349018' stop='1630481363198'>
+    <name>Совершенные заказы</name>
+    <title>Совершенные заказы</title>
+    <test-cases>
+        <test-case start='1630481349025' status='passed' stop='1630481363197'>
+            <name>Проверка отображения завершенных заказов и возможности оставить отзыв</name>
+            <title>Проверка отображения завершенных заказов и возможности оставить отзыв</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630481349028' status='passed' stop='1630481350566'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481350566' status='passed' stop='1630481351716'>
+                    <name>Когда Я нажимаю "Войти" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Войти" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481351716' status='passed' stop='1630481352085'>
+                    <name>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481352085' status='passed' stop='1630481352270'>
+                    <name>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481352270' status='passed' stop='1630481353403'>
+                    <name>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</name>
+                    <title>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481353403' status='passed' stop='1630481355345'>
+                    <name>Тогда Я вижу "Имя Профиля" на "Главная Страница"</name>
+                    <title>Тогда Я вижу "Имя Профиля" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481355345' status='passed' stop='1630481356450'>
+                    <name>Когда Я нажимаю "Профиль" на "Главная Страница"</name>
+                    <title>Когда Я нажимаю "Профиль" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481356450' status='passed' stop='1630481358753'>
+                    <name>Когда Я нажимаю "История Заказов" на "Главная Страница"</name>
+                    <title>Когда Я нажимаю "История Заказов" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481358753' status='passed' stop='1630481361143'>
+                    <name>Когда Я нажимаю "Подробности Заказа" на "Главная Страница"</name>
+                    <title>Когда Я нажимаю "Подробности Заказа" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481361143' status='passed' stop='1630481363135'>
+                    <name>Когда Я нажимаю "Отзыв О Магазине" на "Главная Страница"</name>
+                    <title>Когда Я нажимаю "Отзыв О Магазине" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481363135' status='passed' stop='1630481363196'>
+                    <name>Тогда Я вижу "Поле Отзыва" на "Главная Страница"</name>
+                    <title>Тогда Я вижу "Поле Отзыва" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

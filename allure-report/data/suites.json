@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Поиск",
+    "children" : [ {
+      "name" : "Поиск комнаты по стоимости",
+      "uid" : "14bba6056191c0d7",
+      "parentUid" : "46dd790362334ce0a7a6d2eb70fae89c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630481092534,
+        "stop" : 1630481104930,
+        "duration" : 12396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.159" ]
+    } ],
+    "uid" : "46dd790362334ce0a7a6d2eb70fae89c"
+  } ],
+  "name" : "suites"
+}

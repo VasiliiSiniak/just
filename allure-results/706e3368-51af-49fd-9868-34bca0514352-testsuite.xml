@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630493065777' stop='1630493071992'>
+    <name>Логин</name>
+    <title>Логин</title>
+    <test-cases>
+        <test-case start='1630493065784' status='broken' stop='1630493071988'>
+            <name>Логин на онлайнер</name>
+            <title>Логин на онлайнер</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-11'/>
+            </parameters>
+            <steps>
+                <step start='1630493065787' status='passed' stop='1630493069312'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493069312' status='passed' stop='1630493070977'>
+                    <name>Когда Я нажимаю "Боковое Меню" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Боковое Меню" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493070977' status='broken' stop='1630493071987'>
+                    <name>Когда Я нажимаю "Войти" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Войти" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493071988' status='canceled' stop='1630493071988'>
+                    <name>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493071988' status='canceled' stop='1630493071988'>
+                    <name>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493071989' status='canceled' stop='1630493071989'>
+                    <name>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</name>
+                    <title>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493071989' status='canceled' stop='1630493071989'>
+                    <name>Тогда Я вижу "Имя Профиля" на "Главная Страница"</name>
+                    <title>Тогда Я вижу "Имя Профиля" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at Browser.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/node_modules/@wdio/utils/build/shim.js:239:24)
+                    at global.$ (/Users/v.siniak/WebstormProjects/just/node_modules/@wdio/runner/build/index.js:190:42)
+                    at ElementManager.getElement (/Users/v.siniak/WebstormProjects/just/tests/services/elementManager.js:18:16)
+                    at ElementManager.waitForClickable (/Users/v.siniak/WebstormProjects/just/tests/services/elementManager.js:90:30)
+                    at ElementManager.click (/Users/v.siniak/WebstormProjects/just/tests/services/elementManager.js:5:14)
+                    at World.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/tests/features/step_definitions/when.js:9:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

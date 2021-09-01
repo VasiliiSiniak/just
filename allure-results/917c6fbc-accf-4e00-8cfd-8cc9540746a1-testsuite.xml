@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630482788528' stop='1630482803797'>
+    <name>Поиск</name>
+    <title>Поиск</title>
+    <test-cases>
+        <test-case start='1630482788539' status='passed' stop='1630482803796'>
+            <name>Поиск телефона сяоми</name>
+            <title>Поиск телефона сяоми</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630482788543' status='passed' stop='1630482790049'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630482790049' status='passed' stop='1630482794068'>
+                    <name>Когда Я нажимаю "Каталог" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Каталог" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630482794068' status='passed' stop='1630482795528'>
+                    <name>Когда Я нажимаю "Электроника" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Электроника" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630482795528' status='passed' stop='1630482796810'>
+                    <name>Когда Я нажимаю "Категория Мобильные Телефоны" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Категория Мобильные Телефоны" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630482796810' status='passed' stop='1630482800826'>
+                    <name>Когда Я нажимаю "Мобильные Телефоны" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Мобильные Телефоны" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630482800826' status='passed' stop='1630482803516'>
+                    <name>Когда Я нажимаю "Фильтр Сяоми" на "Каталог"</name>
+                    <title>Когда Я нажимаю "Фильтр Сяоми" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630482803516' status='passed' stop='1630482803794'>
+                    <name>Тогда Я вижу "Телефон Xiaomi" с текстом "Телефон Xiaomi" на "Каталог"</name>
+                    <title>Тогда Я вижу "Телефон Xiaomi" с текстом "Телефон Xiaomi" на "Каталог"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

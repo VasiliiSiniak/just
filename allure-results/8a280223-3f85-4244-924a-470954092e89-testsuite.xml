@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630493264238' stop='1630493307511'>
+    <name>Логин</name>
+    <title>Логин</title>
+    <test-cases>
+        <test-case start='1630493264246' status='broken' stop='1630493307508'>
+            <name>Логин на онлайнер</name>
+            <title>Логин на онлайнер</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-11'/>
+            </parameters>
+            <steps>
+                <step start='1630493264248' status='passed' stop='1630493268675'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493268675' status='passed' stop='1630493270369'>
+                    <name>Когда Я нажимаю "Боковое Меню" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Боковое Меню" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493270369' status='passed' stop='1630493274273'>
+                    <name>Когда Я нажимаю "Войти" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Войти" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493274273' status='broken' stop='1630493307508'>
+                    <name>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Логин" в "Поле Email" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493307508' status='canceled' stop='1630493307508'>
+                    <name>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</name>
+                    <title>Когда Я ввожу "Пароль" в "Поле Пароль" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493307508' status='canceled' stop='1630493307509'>
+                    <name>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</name>
+                    <title>Когда Я нажимаю "Кнопка Войти" на "Регистрация"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630493307509' status='canceled' stop='1630493307509'>
+                    <name>Тогда Я вижу "Имя Профиля" на "Главная Страница"</name>
+                    <title>Тогда Я вижу "Имя Профиля" на "Главная Страница"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown command: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource</message>
+                <stack-trace>unknown command: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Browser.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/node_modules/@wdio/utils/build/shim.js:239:24)
+                    at ElementManager.clearValue (/Users/v.siniak/WebstormProjects/just/tests/services/elementManager.js:58:24)
+                    at World.&lt;anonymous> (/Users/v.siniak/WebstormProjects/just/tests/features/step_definitions/when.js:16:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630481092524' stop='1630481104931'>
+    <name>Поиск</name>
+    <title>Поиск</title>
+    <test-cases>
+        <test-case start='1630481092534' status='passed' stop='1630481104930'>
+            <name>Поиск комнаты по стоимости</name>
+            <title>Поиск комнаты по стоимости</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630481092539' status='passed' stop='1630481093764'>
+                    <name>Пусть Я нахожусь на главной странице</name>
+                    <title>Пусть Я нахожусь на главной странице</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481093764' status='passed' stop='1630481097945'>
+                    <name>Когда Я нажимаю "Квартиры" на "Хедер"</name>
+                    <title>Когда Я нажимаю "Квартиры" на "Хедер"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481097945' status='passed' stop='1630481100312'>
+                    <name>Когда Я нажимаю "Аренда" на "Недвижимость"</name>
+                    <title>Когда Я нажимаю "Аренда" на "Недвижимость"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481100312' status='passed' stop='1630481101448'>
+                    <name>Когда Я нажимаю "Комната" на "Недвижимость"</name>
+                    <title>Когда Я нажимаю "Комната" на "Недвижимость"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481101448' status='passed' stop='1630481102414'>
+                    <name>Когда Я ввожу "Минимальная Цена" в "Цена От" на "Недвижимость"</name>
+                    <title>Когда Я ввожу "Минимальная Цена" в "Цена От" на "Недвижимость"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481102414' status='passed' stop='1630481102894'>
+                    <name>Когда Я ввожу "Максимальная Цена" в "Цена До" на "Недвижимость"</name>
+                    <title>Когда Я ввожу "Максимальная Цена" в "Цена До" на "Недвижимость"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481102894' status='passed' stop='1630481104861'>
+                    <name>Когда Я нажимаю "Первая Комната" на "Недвижимость"</name>
+                    <title>Когда Я нажимаю "Первая Комната" на "Недвижимость"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1630481104861' status='passed' stop='1630481104929'>
+                    <name>Тогда Я вижу, что "Цена Комнаты" корректна на "Недвижимость"</name>
+                    <title>Тогда Я вижу, что "Цена Комнаты" корректна на "Недвижимость"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
